@@ -1,17 +1,9 @@
 import { Component } from "@angular/core";
 
 @Component({
+    moduleId: module.id,
     selector: "app",
-    template: `
-        <p>
-            <label for="Name">Enter your name:</label>
-            <input id="Name" name="Name" type="text" [(ngModel)]="name" />
-        </p>
-        <hr />
-        <p>
-            Hello {{ name }}
-        </p>
-`
+    templateUrl: "app.component.html"
 })
 export class AppComponent {
     name: string = "guest";

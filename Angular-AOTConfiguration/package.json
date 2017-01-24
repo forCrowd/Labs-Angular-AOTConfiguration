@@ -16,6 +16,7 @@
         "@angular/compiler": "2.4.4",
         "@angular/compiler-cli": "2.4.4",
         "@types/core-js": "0.9.35",
+        "@types/node": "7.0.0",
         "del": "2.2.2",
         "gulp": "3.9.1",
         "reflect-metadata": "0.1.9",
